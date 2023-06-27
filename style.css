@@ -91,46 +91,46 @@ footer {
   align-items: center;
 }
 
-.publi {
+.article {
   padding: 0em 0em;
   display: flex;
   align-items: center;
 }
 
-.publi p {
+.article p {
   text-align: left;
   margin-left: 1.5em;
 }
 
-.publi-body {
+.article-body {
   flex: 1;
   font-size:0.8em
 }
 
-.publi-title {
+.article-title {
   font-weight: 600;
   margin-bottom: 0;
   font-size: 1.08em;
 }
 
-.publi-authors {
+.article-authors {
   margin: 0;
   padding-top:0;
 }
 
-.publi-conference {
+.article-conference {
   font-style: italic;
   margin:0;
   padding-top:0;
 }
 
-.publi-links {
+.article-links {
 /*  font-size:0.8em;*/
   font-variant:small-caps;
 }
 
 @media (min-width: 480px) {
-  .publi-figure {
+  .article-figure {
     padding-right: 0;
     width: 30%;
     max-width: 400px;
@@ -145,18 +145,18 @@ footer {
   }
 }
 @media (min-width: 0px) and (max-width: 479px) {
-  .publi-figure {
+  .article-figure {
     padding-right: 0;
     width: 70%;
     align-self: center;
     border: 1px solid #666666;
   }
 
-  .publi {
+  .article {
     flex-direction: column;
   }
 
-  .publi-body {
+  .article-body {
     padding-top: 1em;
   }
     
